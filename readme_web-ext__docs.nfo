@@ -1,0 +1,22 @@
+bin\web-ext docs
+
+Options:
+  --version            Show version number                             [boolean]
+  --source-dir, -s     Web extension source directory.
+              [string] [required] [default: "C:\\Users\\Elad\\Desktop\\web-ext"]
+  --artifacts-dir, -a  Directory where artifacts will be saved.
+                                                   [string] [required] [default:
+                         "C:\\Users\\Elad\\Desktop\\web-ext\\web-ext-artifacts"]
+  --verbose, -v        Show verbose output                  [boolean] [required]
+  --ignore-files, -i   A list of glob patterns to define which files should be
+                       ignored. (Example: --ignore-files=path/to/first.js
+                       path/to/second.js "**/*.log")                     [array]
+  --no-input           Disable all features that require standard input
+                                                            [boolean] [required]
+  --config, -c         Path to a CommonJS config file to set option defaults
+                                                                        [string]
+  --config-discovery   Discover config files in home directory and working
+                       directory. Disable with --no-config-discovery.
+                                                       [boolean] [default: true]
+  -h, --help           Show help                                       [boolean]
+
